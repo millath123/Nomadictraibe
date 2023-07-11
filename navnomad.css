@@ -101,6 +101,9 @@ video{
 .life{
   padding-top: 15px;
 }
+.life1{
+  margin-bottom: 20px;
+}
 body{
   padding: 0;
   margin: 0;
@@ -117,7 +120,7 @@ body{
     left: 640px;   
   }
 
-
+ 
 #arrowbutton{
   width: 40px;
   height: 40px;
@@ -128,19 +131,34 @@ body{
   }
 
 /* .lenear-gradient h1 {
-    /* font-family: FONT-FAMILY
+    font-family: 
     "Welcome 2019", Georgia, Times, "Times New Roman", serif;
 font-size: 40px;
- background: linear-gradient(to right,#ef4b78,#ff8f4d,
+ background-color: linear-gradient(to right,#ef4b78,#ff8f4d,
   yellow);
  -webkit-text-fill-color: transparent;
- -webkit-background-clip: text; */
- /* background-image: linear-gradient(90deg, #ef4b78,yellow );
+ -webkit-background-clip: text;
+  background-image: linear-gradient(90deg, #ef4b78,yellow );
  -webkit-background-clip: text;
  background-clip: text;
  color: transparent;
  font-family:Welcome\ 2019,Georgia,Times,Times New Roman,serif;
 }   */
+.lenear-gardient{
+  padding-bottom: 100px;
+  padding-left: 300px;
+}
+.gradient-text {
+  background: linear-gradient(to right,#ef4b78,#e8c92a );
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            position: absolute;
+            font-size: 38px;
+            margin-bottom: 200px;
+            font-family: cursive;
+            font-weight: 1000;
+}
+
 
 .section4{
   margin-top: 25px;
@@ -150,9 +168,7 @@ font-size: 40px;
   text-align: center;
   justify-content: center;
 }
-.lenear-gardient{
- 
-}
+
 
 .futuretribimg1{
   border-radius: 5px;
@@ -160,6 +176,33 @@ font-size: 40px;
   margin-top: 25px;
   position: absolute;
   
+ 
+}
+.gradient-textdis{
+  background: linear-gradient(to right,#ef4b78,#e8c92a );
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            position: absolute;
+            font-size: 38px;
+            background: linear-gradient(to right,#ef4b78,#e8c92a );
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            position: absolute;
+            font-size: 38px;
+            font-family: cursive;
+            font-weight: 1000;
+            font-family: cursive;
+            font-weight: 1000;
+            
+}
+.gradient-text1{
+  background: linear-gradient(to right,#ef4b78,#e8c92a );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size:20px;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-family: cursive;
  
 }
 .futuretribimg2{
@@ -258,7 +301,11 @@ font-family: Helvetica, Arial, "Lucida Grande", sans-seriff;
 
 }
 
-
+.discovelist1{
+  color: #ef4b78;
+  padding-right: 10px;
+  text-align: start;
+}
 .discovelist{
   color: #ef4b78;
   padding-right: 10px;
@@ -334,7 +381,7 @@ background-color:#ffffff ;
 }
 .traveltipsp{
   font-size: 14px;
-  margin-left: 70px;
+  margin-left:60px;
   color: #4e4e4e;
 }
 
@@ -370,6 +417,10 @@ background-color:#ffffff ;
 .happening{
   padding: 0;
 }
+
+.hector{
+  border-radius:60px;
+}
 #card71 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
   margin-left: 23px;
@@ -389,6 +440,34 @@ background-color:#ffffff ;
   margin-bottom: 30px;
  margin-left: 50px;
   
+}
+
+hr.new1 {
+  border-top: rgb(231, 231, 231);
+  margin-top: px;
+}
+.rotate{
+  width: 40px;
+  height: 20px;
+  transform: rotate(45deg);
+  background-color: rgb(197, 103, 103);
+  margin-left: 130px;
+  position: absolute;
+  z-index: 1;
+  box-shadow: #4e4e4e;
+  
+  padding-bottom: 10px;
+}.rotate2{
+  width: 40px;
+  height: 20px;
+  transform: rotate(45deg);
+  background-color: rgb(197, 103, 103);
+  margin-left: 130px;margin-top: ;
+  position: absolute;
+  z-index: 1;
+  box-shadow: #4e4e4e;
+  
+  padding-bottom: 10px;
 }
 .happeminglist{
   
@@ -443,6 +522,7 @@ background-color:#ffffff ;
 }
 .sectioncards7{
   display: flex;
+  position: relative;
   
 }
 .card71txt1{
@@ -472,7 +552,7 @@ display: flex;
 /* margin-left: 100px; */
 }
 .section10txt{
-  margin-left: 170px;
+  margin-left:10px;margin-top: 100px;
 }
 .thewondertxt{
   padding-top: 100px;
@@ -579,4 +659,8 @@ background-color: #120d07;
 
 .socio{
   padding-left: 10px;
+}
+
+.lenear-gardientl{
+margin-left: 130px;
 }
